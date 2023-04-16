@@ -1,43 +1,50 @@
 {
   "project_info": {
-    "project_number": "434952012234",
-    "firebase_url": "https://fir-web-8444c-default-rtdb.firebaseio.com",
-    "project_id": "fir-web-8444c",
-    "storage_bucket": "fir-web-8444c.appspot.com"
+    "project_number": "50002883773",
+    "firebase_url": "https://winboxofficial-f4f8e-default-rtdb.firebaseio.com",
+    "project_id": "winboxofficial-f4f8e",
+    "storage_bucket": "winboxofficial-f4f8e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:434952012234:android:fe300593498dae07b94f33",
+        "mobilesdk_app_id": "1:50002883773:android:69f199443aeba8e99ff3d4",
         "android_client_info": {
-          "package_name": "com.firebaseapp"
+          "package_name": "com.WinboxOfficial.WinboxOfficial"
         }
       },
       "oauth_client": [
         {
-          "client_id": "434952012234-mkmtpcbj7p7stc5dbunpgr8bvtgg5gbc.apps.googleusercontent.com",
+          "client_id": "50002883773-78tp4lvm11l4mavc6f5mpcbu3iht8k5a.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.firebaseapp",
+            "package_name": "com.WinboxOfficial.WinboxOfficial",
             "certificate_hash": "f4fa5a0f7b3d1dfd28d1ea0ca26780942d834df8"
           }
         },
         {
-          "client_id": "434952012234-qas813476iupt2825mpodv11o6of0k48.apps.googleusercontent.com",
+          "client_id": "50002883773-2f6gcoom9rovmbsp41b12ebjlbk57sak.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDWCSFHaDieCFEpMW4QscnYq39V4ESnu2c"
+          "current_key": "AIzaSyCUhrqvxUuawUHUikQqsg64WGHA43opH9Q"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "434952012234-qas813476iupt2825mpodv11o6of0k48.apps.googleusercontent.com",
+              "client_id": "50002883773-2f6gcoom9rovmbsp41b12ebjlbk57sak.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "50002883773-356sc015p2pk30p876iie4f7arokou3h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.WinboxOfficial.WinboxOfficial"
+              }
             }
           ]
         }

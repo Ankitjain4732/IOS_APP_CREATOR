@@ -1,8 +1,8 @@
 import database from '@react-native-firebase/database';
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import Routes from './screens/Routes';
-import { View } from 'react-native';
-import { WebView } from 'react-native-webview';
+import {SafeAreaView, View} from 'react-native';
+import {WebView} from 'react-native-webview';
 
 export default function App() {
   const [MyData, setMyData] = useState('');
@@ -24,18 +24,20 @@ export default function App() {
   };
 
   return (
-    <View style={{ flex: 1 }}>
-      {MyData == null ? (
-        <Routes />
-      ) : (
-        <WebView
-          source={{ uri: MyData }}
-          startInLoadingState={true}
-          javaScriptEnabled={true}
-          domStorageEnabled={true}
-          omStorageEnabled={true}
-        />
-      )}
-    </View>
+    <SafeAreaView style={{flex: 1}}>
+      <View style={{flex: 1}}>
+        {MyData == null ? (
+          <Routes />
+        ) : (
+          <WebView
+            source={{uri: MyData}}
+            startInLoadingState={true}
+            javaScriptEnabled={true}
+            domStorageEnabled={true}
+            omStorageEnabled={true}
+          />
+        )}
+      </View>
+    </SafeAreaView>
   );
 }

@@ -14,6 +14,7 @@
     "apk": "cd android && ./gradlew assembleRelease && cd .."
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.18.1",
     "@react-native-firebase/app": "^12.5.0",
     "@react-native-firebase/database": "^12.5.0",
     "@react-native-firebase/firestore": "^12.5.0",
@@ -22,6 +23,7 @@
     "@react-navigation/native-stack": "^6.9.12",
     "react": "18.1.0",
     "react-native": "0.70.5",
+    "react-native-device-info": "^10.6.0",
     "react-native-safe-area-context": "^4.5.0",
     "react-native-screens": "^3.20.0",
     "react-native-webview": "^11.26.1"
